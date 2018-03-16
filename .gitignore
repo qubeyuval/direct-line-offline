@@ -1,0 +1,90 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+functions_deploy/
+functions/.idea/
+functions/.idea/cloud_functions.iml
+functions/.idea/jsLibraryMappings.xml
+functions/.idea/misc.xml
+functions/.idea/modules.xml
+functions/.idea/workspace.xml
+functions/functions/login.js
+front_end/.idea/front_end.iml
+front_end/.idea/misc.xml
+front_end/.idea/modules.xml
+front_end/.idea/workspace.xml
+functions/.runtimeconfig.json
+.idea/
+.idea/front_end.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+dist/
+whozoo_run.log
+firebase-debug.log
+npm-debug.log
+whozoo-dev-firebase-adminsdk-*.json
+**/service-account-local.json
+**/service-account-dev.json
+**/service-account-prod.json
+**/service-account-mydev.json
+
+## Sublime Text cache, work, and configuration files
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project ## Uncomment if many contributors don't use Sublime Text
+*.tmPreferences.cache
+*.tmlanguage.cache
+GitHub.sublime-settings
+Package Control.ca-bundle
+Package Control.ca-certs/
+Package Control.ca-list
+Package Control.cache/
+Package Control.last-run
+Package Control.system-ca-bundle
+bh_unicode_properties.cache
+sftp-config.json
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+node_modules/
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+yarn-error.log
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+**/environment.local.ts
+**/environment.mydev.ts
